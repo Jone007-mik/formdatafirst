@@ -1,0 +1,28 @@
+
+server:
+  servlet:
+    context-path: /json_formdata
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/wechat?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password:  123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+  cache: false
+
+  resources:
+    static-locations:
+      - classpath:/templates/
+
+mybatis:
+  type-aliases-package: com.libao.domain.model
+  mapper-locations:  classpath:mapping/*.xml
+
+
+
+
