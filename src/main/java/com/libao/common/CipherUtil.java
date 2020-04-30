@@ -14,8 +14,7 @@ import org.apache.shiro.crypto.hash.Md5Hash;
  */
 public class CipherUtil {
 
-	private final static String[] hexDigits = { "0", "1", "2", "3", "4", "5",
-			"6", "7", "8", "9", "a", "b", "c", "d", "e", "f" };
+
 
 	/**
 	 * cipher password 加密成MD5
