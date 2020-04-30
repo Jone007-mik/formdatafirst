@@ -3,5 +3,6 @@ public class Brunch1{
 
         System.out.println("branch1是主分支");
         System.out.println("loren ");
+        System.out.println("loren ");
     }
 }
